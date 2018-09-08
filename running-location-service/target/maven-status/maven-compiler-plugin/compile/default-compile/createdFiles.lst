@@ -1,0 +1,10 @@
+demo/rest/RunningUploadRestController.class
+demo/domain/LocationRepository.class
+demo/domain/Location.class
+demo/domain/MedicalInfo.class
+demo/domain/UnitInfo.class
+demo/service/Impl/LocationServiceImpl.class
+demo/domain/Location$GpsStatus.class
+demo/domain/Location$RunnerMovementType.class
+demo/RunningLocationServiceApplication.class
+demo/service/LocationService.class
