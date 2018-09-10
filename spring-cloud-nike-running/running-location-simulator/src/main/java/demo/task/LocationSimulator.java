@@ -1,6 +1,10 @@
 package demo.task;
 
-import demo.domain.*;
+import demo.model.*;
+import demo.service.PositionService;
+import demo.support.NavUtils;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
@@ -8,7 +12,12 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class LocationSimulator implements Runnable {
 
+    @Getter
+    @Setter
     private long id;
+
+    @Setter
+    private PositionService positionService;
 
     // flag for cancelling the simulation
     private AtomicBoolean cancel = new AtomicBoolean();
@@ -21,12 +30,16 @@ public class LocationSimulator implements Runnable {
     private boolean exportPositionsToMessaging = true;
     private Integer reportInterval = 500; // unit Millisecond
 
+    @Getter
+    @Setter
     private PositionInfo currentPosition = null;
 
+    @Setter
     private List<Leg> legs;
     private RunnerStatus runnerStatus = RunnerStatus.NONE;
     private String runningId;
 
+    @Setter
     private Point startPoint;
     private Date executionStartTime;
 
@@ -41,10 +54,6 @@ public class LocationSimulator implements Runnable {
         this.runningId = gpsSimulatorRequest.getRunningId();
         this.runnerStatus = gpsSimulatorRequest.getRunnerStatus();
         this.medicalInfo = gpsSimulatorRequest.getMedicalInfo();
-    }
-
-    public void setSpeed(double speed){
-        this.speedInMps = speed;
     }
 
     @Override
@@ -93,7 +102,7 @@ public class LocationSimulator implements Runnable {
                             medicalInfoToUse
                     );
                     // send current position to distribution service via REST API
-                    // @TODO implement positionInfoService
+                    positionService.processPositionInfo(id, currentPosition, this.exportPositionsToMessaging);
                 }
                 // wait until next position report
                 sleep(startTime);
@@ -114,8 +123,7 @@ public class LocationSimulator implements Runnable {
     private void sleep(long startTime) throws InterruptedException {
         long endTime = new Date().getTime();
         long elapsedTime = endTime - startTime;
-        long sleepTime = reportInterval - elapsedTime > 0 ? reportInterval -
-                elapsedTime : 0 ;
+        long sleepTime = reportInterval - elapsedTime > 0 ? reportInterval - elapsedTime : 0 ;
         Thread.sleep(sleepTime);
     }
 
@@ -133,8 +141,8 @@ public class LocationSimulator implements Runnable {
                 // this means new position falls within current leg
                 currentPosition.setDistanceFromStart(distanceFromStart);
                 currentPosition.setLeg(currentLeg);
-                //@TODO implement the new position calcuation method in NavUtils
-                Point newPosition = null;
+                //Use the new position calculation method in NavUtils
+                Point newPosition = NavUtils.getPosition(currentLeg.getStartPosition(), distanceFromStart, currentLeg.getHeading());
                 currentPosition.setPosition(newPosition);
                 return;
             }
@@ -153,4 +161,12 @@ public class LocationSimulator implements Runnable {
         currentPosition.setPosition(leg.getStartPosition());
         currentPosition.setDistanceFromStart(0.0);
     }
+
+    public Double getSpeed() { return this.speedInMps; }
+
+    public void setSpeed(double speed){
+        this.speedInMps = speed;
+    }
+
+    public synchronized void cancel() { this.cancel.set(true); }
 }
