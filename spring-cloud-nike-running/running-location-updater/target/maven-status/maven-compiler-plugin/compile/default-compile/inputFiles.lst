@@ -1,2 +1,10 @@
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/WebSocketConfig.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/CurrentPosition.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/Point.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/SupplyLocation.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/web/WebSocketApi.java
 /home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterApplication.java
 /home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/RunnerStatus.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/CurrentPositionDto.java
+/home/vagrant/workspace/spring-cloud-nike-running/running-location-updater/src/main/java/demo/model/MedicalInfo.java
