@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9719456-09ed-4a1e-9684-ec925ee4c854" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/running-location-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running-location-service/src/main/java/demo/domain/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-service/src/main/java/demo/domain/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running-location-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running-location-service/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-service/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running-location-service/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-service/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/src/main/java/eurekademo/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/src/main/java/eurekademo/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/classes/eurekademo/EurekaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/classes/eurekademo/EurekaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/running-eureka-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/running-eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/running-eureka-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/eureka/target/running-eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/platform/hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/running-location-distribution-1.0.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/running-location-distribution-1.0.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/running-location-distribution-1.0.0.BUILD-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-distribution/target/running-location-distribution-1.0.0.BUILD-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/classes/demo/SimulatorServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/classes/demo/SimulatorServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/classes/demo/service/impl/DefaultPositionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/classes/demo/service/impl/DefaultPositionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/running-location-simulator-1.0.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/running-location-simulator-1.0.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/running-location-simulator-1.0.0.BUILD-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-simulator/target/running-location-simulator-1.0.0.BUILD-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/classes/demo/RunningLocationUpdaterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/classes/demo/RunningLocationUpdaterApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/classes/demo/RunningLocationUpdaterSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/classes/demo/RunningLocationUpdaterSink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/running-location-updater-1.0.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/running-location-updater-1.0.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/running-location-updater-1.0.0.BUILD-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/target/running-location-updater-1.0.0.BUILD-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supply-location-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supply-location-service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supply-location-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supply-location-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supply-location-service/src/main/java/demo/rest/SupplyLocationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/supply-location-service/src/main/java/demo/rest/SupplyLocationRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supply-location-service/target/classes/demo/rest/SupplyLocationRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/supply-location-service/target/classes/demo/rest/SupplyLocationRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/hs_err_pid12148.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/hs_err_pid12535.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,40 +18,45 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="9" />
+          <entry key="gitignore" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="java" value="1" />
+          <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JAVA" value="1" />
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -99,7 +66,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="45">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -134,6 +101,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,19 +111,21 @@
               <item name="real-time-running-location-simulation-and-monitoring-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="real-time-running-location-simulation-and-monitoring-system" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="real-time-running-location-simulation-and-monitoring-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="real-time-running-location-simulation-and-monitoring-system" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace/spring-boot-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -180,26 +152,24 @@
       <option name="presentableId" value="Default" />
       <updated>1536792729896</updated>
       <workItem from="1536792731341" duration="384000" />
+      <workItem from="1536794193258" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384000" />
+    <option name="totallyTimeSpent" value="587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="751" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -207,15 +177,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,26 +199,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supply-location-service/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/supply-location-service/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-nike-running/running-location-updater/hs_err_pid12148.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supply-location-service/src/test/java/demo/SupplyLocationRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
