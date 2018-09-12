@@ -1,5 +1,5 @@
 # ignore all .iml file
-**.iml
+.iml
 
 # ignore all maven build file
-**/target
+**/target/
