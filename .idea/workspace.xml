@@ -23,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="177" />
+          <entry key="gitignore" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="177" />
+          <entry key="PLAIN_TEXT" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,11 +97,6 @@
               <item name="real-time-running-location-simulation-and-monitoring-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="real-time-running-location-simulation-and-monitoring-system" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="real-time-running-location-simulation-and-monitoring-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="real-time-running-location-simulation-and-monitoring-system" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -142,12 +137,12 @@
       <updated>1536792729896</updated>
       <workItem from="1536792731341" duration="384000" />
       <workItem from="1536794193258" duration="941000" />
-      <workItem from="1536795181586" duration="749000" />
+      <workItem from="1536795181586" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2074000" />
+    <option name="totallyTimeSpent" value="2163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="751" extended-state="0" />
