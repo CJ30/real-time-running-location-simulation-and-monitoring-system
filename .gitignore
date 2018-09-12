@@ -1,2 +1,5 @@
+# ignore all .iml file
 *.iml
-running-location-service/target/
+
+# ignore all maven build file
+target/
