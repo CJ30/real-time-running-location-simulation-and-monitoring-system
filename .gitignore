@@ -1,8 +1,10 @@
 # ignore all .iml file
 **.iml
+**/*.iml
 
 # ignore .idea directory from IntelliJ
-*/.idea/*
+.idea/
+**/.idea/
 
 # ignore maven build file
-*/target/*
+**/target/
