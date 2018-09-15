@@ -38,6 +38,7 @@ Distribution Service receives REST Call from Simulator and convert the data form
 
 ### Running Location Updater:
 * Built with: Spring Boot, Spring Cloud Stream, RabbitMQ, WebSocket
+
 Updater is the Sink of RabbitMQ and consumes messages from queue and also connects with frontend via WebSocket, sending the simulation result to frontend, which eventually present on the browser.
 
 
