@@ -1,6 +1,6 @@
-# Real-time Running Location Simulation System
+# Real-time Running Simulation System
 ## Introduction:
-Real-time Running Location Simulation System is mainly a backend system with light-weight frontend presentation. The goal is to provide a running assistant by simulating runner's running process, including changes of runner status, location, speed, headings, etc. and represents it in real time on the frontend page.
+Real-time Running Simulation System is mainly a backend system with light-weight frontend presentation. The goal is to provide a running assistant by simulating runner's running process, including changes of runner status, location, speed, headings, etc. and represents it in real time on the frontend page.
 
 ### Architecture:
 Backend services are built in Microservices style and integrated in a Cloud Native way.
