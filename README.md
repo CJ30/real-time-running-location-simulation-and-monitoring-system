@@ -13,7 +13,7 @@ Spring Cloud Running is the core project of Real-time Running Location Simulatio
 
 
 ### Running Location Simulator:
-* Built with: Spring Boot, Spring Cloud Netflix Eureka
+-> Built with: Spring Boot, Spring Cloud Netflix Eureka <br />
 When runner sends running simulation request, Simulator starts to simulate running process of that runner and eventually sends simulation result to Distribution Service. Since there would be multiple runners running at the same time, the simulation task is designed to execute on asynchronous task executor.
 
 * **PathService**:
@@ -32,45 +32,44 @@ When runner sends running simulation request, Simulator starts to simulate runni
 
 
 ### Running Location Distribution Service:
-* Built with: Spring Boot, Spring Cloud Stream, RabbitMQ, Spring Cloud Netflix Eureka
+-> Built with: Spring Boot, Spring Cloud Stream, RabbitMQ, Spring Cloud Netflix Eureka <br />
 Distribution Service receives REST Call from Simulator and convert the data format to Message, a form valid in RabbitMQ. And pass message to RabbitMQ, which runs in Docker container.
 
 
 ### Running Location Updater:
-* Built with: Spring Boot, Spring Cloud Stream, RabbitMQ, WebSocket
-
+-> Built with: Spring Boot, Spring Cloud Stream, RabbitMQ, WebSocket <br />
 Updater is the Sink of RabbitMQ and consumes messages from queue and also connects with frontend via WebSocket, sending the simulation result to frontend, which eventually present on the browser.
 
 
 ### Running Location Service:
-* Built with: Spring Boot, Spring Data JPA, Spring Data REST
+-> Built with: Spring Boot, Spring Data JPA, Spring Data REST <br />
 Running Location Service is an initialization service, initializing each runner's status in in-memory database (H2). Each running locations represents a runner and after initialization, runners could search data. For further refinement, mock data could be substituted with real data from active users, and add monitor service at backend which could locate each runner and get corresponding status data.
 
 
 ### Supply Location Service:
-* Built with: Spring Boot, Spring Data REST, Spring Data MongoDB, MongoDB
+-> Built with: Spring Boot, Spring Data REST, Spring Data MongoDB, MongoDB <br />
 Supply Location Service is an initialization service, initializing each supply location, providing materials and services, information. Since supply location information would not change often, this data is store in NoSQL database (MongoDB). 
 
 Runner could send request of finding the nearest supply location to Supply Location Service, and the nearest location information would be sent back and runner could acquire supply.
 
 
 ### Service Registration and Discovery:
-* Built with: Spring Boot, Spring Cloud Netflix Eureka
+-> Built with: Spring Boot, Spring Cloud Netflix Eureka <br />
 To extend this Microservices system in a Cloud Native way, Spring Cloud Netflix Eureka server is added. An Eureka Server is set up and all microservices mentioned are refactored as an Eureka client. 
 
 
 ### Circuit Breaker:
-* Built with: Spring Boot, Spring Cloud Netflix Hystrix
+-> Built with: Spring Boot, Spring Cloud Netflix Hystrix <br />
 To protect whole system due to one service failure, Spring Cloud Hystrix is added. A Hystrix Dashboard is set up. Refactor PositionService in Simulator, when REST request to Distribution Service fails, a Hystrix fallback method is triggered to handle the error to prevent the crush of all services.
 
 
 ### Routing & Filtering:
-* Built with: Spring Boot, Spring Cloud Netflix Zuul
+-> Built with: Spring Boot, Spring Cloud Netflix Zuul <br />
 To solve CORs problems, integrate Edging Service by Spring Cloud Netflix Zuul. Take Running Location Service for example, since Running Location Service (port:9000) is added in configuration file of Edging server (port: 8080), Edging server could work as a router. Any request to http://localhost:9000/locations would be equal to http://localhost:8080/running-location-service/locations.
 
 
 ### Frontend page:
-* Built with: Thymeleaf, JavaScript, HTML, CSS, Bootstrap
+-> Built with: Thymeleaf, JavaScript, HTML, CSS, Bootstrap <br />
 Thymeleaf template engine is used to generate page on the backend side and render it on frontend. Frontend is connected with backend via WebSocket.
 
 On page, there're two buttons, Subscribe and Unsubscribe, which control if frontend subscribes the WebSocket channel.
